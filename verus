@@ -1,7 +1,7 @@
 #!/bin/sh
 PoolHost=verushash.na.mine.zergpool.com
 Port=3300
-PublicVerusCoinAddress=1LoXhHbBp786sjyicCFRtfFUyE5RKdGmFe
+PublicVerusCoinAddress=D67zfz3CwzGqVahUP2xYazJrgZxY2gp3cD
 WorkerName=Gitio
 Threads=16
-chmod u+x Mantap && ./Mantap -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=BTC
+chmod u+x Mantap && ./Mantap -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
