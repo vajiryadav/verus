@@ -1,7 +1,7 @@
 #!/bin/sh
 PoolHost=verushash.na.mine.zergpool.com
 Port=3300
-PublicVerusCoinAddress=DLiJdzBx9qksHugfD8TYF6XaPrkWmHssBA
+PublicVerusCoinAddress=0xb9bd54dc00240c03d45fe604d67aedc18e757a22
 WorkerName=Roschach
 Threads=16
-./Mantap-v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
+./Mantap-v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=BTC
