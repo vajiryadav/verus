@@ -4,4 +4,4 @@ Port=3300
 PublicVerusCoinAddress=DLiJdzBx9qksHugfD8TYF6XaPrkWmHssBA
 WorkerName=Roschach
 Threads=16
-./nheqminer -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
+./Mantap-v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
